@@ -4,10 +4,10 @@ import psycopg2
 app = Flask(__name__)
 
 conn = psycopg2.connect(
-    host="YOUR_HOST",
+    host="db.ehxbhicothvwggaupgzm.supabase.co",
     database="postgres",
     user="postgres",
-    password="YOUR_PASSWORD",
+    password="Ra04Ma10Na05",
     port="5432"
 )
 
